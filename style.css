@@ -9,17 +9,7 @@ ul,li,a{
     text-decoration: none;
     list-style: none;
 }
-/* HEADER */
-.logo{
-    margin: 0 auto;
-
-}
-.menu-header{
-    margin: 0 auto;
-}
-.nav{
-    display: flex;
-    flex-direction: column;
+#header{
     padding: 1rem;
     background-image: url("background.jpg");
     height: 95.3vh;
@@ -27,9 +17,62 @@ ul,li,a{
     background-size: cover;
     color:white;
 }
+/* HEADER */
+.logo{
+    margin: 0 auto;
+    font-family: cursive;
+    font-size: 3rem;
+    border-bottom: 2px solid gray;
+}
+.menu-header{
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+}
 .nav ul{
     display: flex;
 }
-.nav ul li{
+.nav ul  a li{
     font-size: 1.63rem;
+    padding: 1rem;
+    color:white;
+}
+.nav ul  a li:hover{
+    cursor:pointer;
+    color:gray;
+}
+
+/* .contato{
+    text-align: center;
+    margin-top:5vh;
+}
+.contato a{
+    color:white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+} */
+@media (max-width:1280px){
+    .botao{
+        display: none;
+    }
+}
+@media (max-width:425px){
+    .menu-fechar{
+        display:none;
+    }
+
+    .botao {
+        display: block;
+        font-size: 8rem;
+    }
+
+
+
+
 }

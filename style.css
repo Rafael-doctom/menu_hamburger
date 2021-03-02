@@ -34,7 +34,7 @@ ul,li,a{
     flex-direction: column;
     margin-top: 25vh;
 }
-.nav ul{
+#menuAbrir  ul{
     display: flex;
 }
 .nav ul  a li{

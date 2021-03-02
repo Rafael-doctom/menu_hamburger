@@ -63,8 +63,13 @@ ul,li,a{
     }
 }
 @media (max-width:425px){
-    .menu-fechar{
-        display:none;
+  
+    .nav ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        background: rgba(128, 128, 128, 0.582);
+        margin-top: -25vh;
     }
 
     .botao {

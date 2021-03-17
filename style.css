@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.content{
+    background:red;
+    width: 100%;
+    height: 100vh;
+}
+.content ul li{
+    color:white;
+    font-size: 3rem;
+}
+
+
+/* MENU OPEN */
+.menuOpen{
+    display: block;
+    background-image: url("menu-abrir.svg");
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+
+
+/* MENU FECHAR */

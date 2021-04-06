@@ -16,14 +16,27 @@
 
 /* MENU OPEN */
 .menuOpen{
+   
     display: block;
     background-image: url("menu-abrir.svg");
     padding-top: 20px;
     padding-bottom: 20px;
+    /* margin-left: 5px; */
     background-repeat: no-repeat;
     text-indent: -9999px;
+    background-position: 15px center;
 }
 
 
 
 /* MENU FECHAR */
+.menuFechar{
+    display: block;
+    background-image: url("menu-fechar.svg");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-position: 15px center;
+    background-color: gray;
+}

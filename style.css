@@ -4,7 +4,6 @@
 
 }
 .content{
-    background:red;
     width: 100%;
     height: 100vh;
 }
@@ -39,4 +38,11 @@
     padding-bottom: 10px;
     background-position: 15px center;
     background-color: gray;
+}
+
+/* MENU */
+.content .listaMenu  li{
+    padding: 10px;
+    color:black;
+    border-bottom: 2px solid gray;
 }

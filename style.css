@@ -15,7 +15,6 @@
 
 /* MENU OPEN */
 .menuOpen{
-   
     display: block;
     background-image: url("menu-abrir.svg");
     padding-top: 20px;
@@ -41,8 +40,24 @@
 }
 
 /* MENU */
-.content .listaMenu  li{
+.content .hamburger  li{
     padding: 10px;
     color:black;
     border-bottom: 2px solid gray;
+}
+
+/* ESCONDER MENU */
+#menu{
+    position: absolute;
+    width: 100%;
+    left:0px;
+    top:0;
+    transform: translateX(-100%);
+    transition: transform 200ms linear;
+}
+
+/* aparecer menu novamente */
+.menuAbrir{
+    transform: translateX(0);
+    
 }

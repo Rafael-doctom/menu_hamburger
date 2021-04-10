@@ -1,0 +1,17 @@
+/* CONTENT */
+body{
+    background:rgb(206, 152, 152);
+}
+
+
+
+/* MENU OPEN */
+.menuOpen{
+    display:block;
+    background-image: url("menu-abrir.svg");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    text-indent: -9999px;     
+}
+
+/* MENU FECHAR */

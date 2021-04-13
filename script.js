@@ -1,5 +1,5 @@
 function clicarMenu(){
-    // const clicarMenu = document.getElementById("botao")
+ 
 
     const menuLista = document.getElementById("navMenu")
 

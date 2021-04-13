@@ -1,31 +1,6 @@
-/* CONTENT */
-body{
-    background:rgb(206, 152, 152);
-}
-ul,a, li{
-    text-decoration: none;
-    text-transform: none;
-    list-style: none;
-}
-
-
-/* MENU OPEN */
-.menuOpen{
-    display:block;
-    background-image: url("menu-abrir.svg");
+/* MENU ABRIR */
+#botao a img{
+    width: 5%;
+    height: 5%;
     background-repeat: no-repeat;
-    background-position: 15px center;
-    text-indent: -9999px;     
-}
-
-/* MENU FECHAR */
-.menuFechar{
-    background-color: gray;
-    display:block;
-    background-image: url("menu-abrir.svg");
-    background-repeat: no-repeat;
-    background-position:15px center;
-    margin-left: -37px;
-    text-indent: -9999px; 
-    width: 100%;
 }

@@ -5,10 +5,10 @@ function clicarMenu(){
 
 
     if(menuLista.style.display=== 'none'){
-        menuLista.style.display = 'flex'
+        menuLista.style.display = 'block'
     }else{
-        navMenu.style.display = 'flex';
-      }
+        menuLista.style.display = 'block';
+    }
 
 
 }

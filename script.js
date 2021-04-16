@@ -1,4 +1,4 @@
-function clicarMenu(){
+function clicarMenu(event){
  
 
     const menuLista = document.getElementById("navMenu")
@@ -10,5 +10,5 @@ function clicarMenu(){
         menuLista.style.display = 'block';
     }
 
-
+    event.preventDefault();
 }

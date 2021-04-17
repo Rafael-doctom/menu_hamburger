@@ -10,13 +10,11 @@
 /* MENU LISTAAA */
 #navMenu{
     display: none;
-    transform: translatex(-100px);
-    transition-duration: 200ms;
-    background:red;
+    transform: translatex(100px);
+    transition: transform 900ms linear;
+    background-color: red;
+    width: 100%;
 
+    
 }
 
-#menu{
-    transform: translatex(0);
-
-}

@@ -10,7 +10,13 @@
 /* MENU LISTAAA */
 #navMenu{
     display: none;
-    transform: translateX(-100px);
-    transition:transform 200ms linear;
+    transform: translatex(-100px);
+    transition-duration: 200ms;
+    background:red;
+
+}
+
+#menu{
+    transform: translatex(0);
 
 }

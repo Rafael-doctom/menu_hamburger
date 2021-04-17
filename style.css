@@ -11,7 +11,7 @@
 #navMenu{
     display: none;
     transform: translatex(100px);
-    transition: transform 900ms linear;
+    transition: transform 900ms;
     background-color: red;
     width: 100%;
 

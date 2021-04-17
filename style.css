@@ -10,7 +10,7 @@
 /* MENU LISTAAA */
 #navMenu{
     display: none;
-    /* transform: translatex(100px);
-    transition-duration: 5s; */
+    transform: translateX(-100px);
+    transition:transform 200ms linear;
 
 }

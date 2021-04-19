@@ -1,0 +1,41 @@
+/* CSS RESET */
+*{
+    margin:0;
+    padding:0;
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+}
+/* HEADER */
+
+
+
+/* menu hamburger */
+#nav #menu-bg .menuHamburger{
+    display: block;
+    margin: 15px;
+    background-image: url("menu-abrir.svg");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+/* menu */
+.menu{
+    background: rgb(202, 164, 164);
+    width: 90%;
+    padding: 1rem;
+}
+/* menuLista */
+.menuLista li{
+    /* text-align: left; */
+    margin-left: 1.55rem;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.753);
+    padding: 1rem;
+}
+/* display NONE No menu  */
+.menu{
+    display: none;
+}

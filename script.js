@@ -1,7 +1,5 @@
 // abrir função
 function menuClicar(event){
-    // constante para o menu hamburger
-    const menuClicar = document.querySelector(".menuHamburger")
 
     //  constante para o menu LISTA
     const menu = document.querySelector(".menu")

@@ -1,5 +1,6 @@
 // abrir função
 function menuClicar(event){
+    event.preventDefault()
 
     //  constante para o menu LISTA
     const menu = document.querySelector(".menu")
@@ -11,9 +12,8 @@ function menuClicar(event){
     }else{
         menu.style.display = 'none';
     }
-    event.preventDefault()
 
-    
+   
 
 
 
